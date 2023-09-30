@@ -1,0 +1,23 @@
+meme_dict = {
+	"CRINGE": "This means having an inward feeling of acute embarrassment or awkwardness. It can be said about or to a person. Example: This is so cringe//This makes me feel shame or embarrrasment for this/the person that made this",
+    "LOL": "This word is a contracion of 'Laughing Out Loud' which is said when something is funny",
+    "LMAO": "This word is a contracion of 'Laughing My Ass Off' which is said when something is funny",
+    "LMFAO": "This word is a contracion of 'Laughing My Fucking Ass Off' which is said when something is hilarious",
+    "XD": "This word is an emoji that when turned -90 degrees, looks like a face laughing with its eyes closed. This is said when something is funny",
+    "CREEPY": "This word is a synonim of scary",
+    "BOOMER":"This word iis the description for people who cling to the past or do not know urban dictionary",
+    "DRIP":"It is often said to fashionable or expensive to buy",
+    "TROLLING": "It is often used as a synonym of pranking someone"
+  }
+print("hola, bienvenido a la aplicacion de diccionario de palabras modernas.")
+ 
+ 
+ 
+for i in range(5):
+    word = input("Escribe una palabra que no entiendas (¡con mayúsculas!): ")
+    
+    if word in meme_dict:
+        print("el significado de ",word," es: ",meme_dict[word])
+ 
+    else:
+        print("lo sentimos no tenemos esta palabra")
